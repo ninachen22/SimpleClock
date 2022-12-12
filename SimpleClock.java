@@ -42,10 +42,10 @@ public class SimpleClock extends JFrame implements ItemListener {
         timeLabel.setForeground(Color.WHITE);
         timeLabel.setOpaque(true);
         dayLabel = new JLabel();
-        dayLabel.setFont(new Font("Ink Free", Font.BOLD, 34));
+        dayLabel.setFont(new Font("Ink Free", Font.BOLD, 35));
 
         dateLabel = new JLabel();
-        dateLabel.setFont(new Font("Ink Free", Font.BOLD, 30));
+        dateLabel.setFont(new Font("Ink Free", Font.BOLD, 33));
 
         calendar.getTimeZone();
         timezone = new JToggleButton("GMT");
